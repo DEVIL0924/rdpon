@@ -75,13 +75,4 @@ echo 'export MOZ_DISABLE_RDD_SANDBOX=1' >> ~/.bashrc
 echo "✅ SETUP COMPLETE!"
 echo "➡️ Now register Chrome Remote Desktop using the command below:"
 echo ""
-echo "DISPLAY= /opt/google/chrome-remote-desktop/start-host --code="4/0ATX87lPMghAyoeTUaXFSxOVHXcOuEXu1TA13ECmplGCrAk3uJIH5P5BX_0uHe4wEnuwTZg" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=$(hostname)
-
-
-
-//command 
-chmod +x rdp.sh
-./rdp.sh
-
-
-DISPLAY= /opt/google/chrome-remote-desktop/start-host --code="4/0ATX87lPAcdy6O58hAXNhxC9mj5OcT2cbQR7kN4TAnBozAGg4QGMuhuW08E5NlZ0rNZ9EuA" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=$(hostname)
+echo "DISPLAY= /opt/google/chrome-remote-desktop/start-host --code="4/0ATX87lPMghAyoeTUaXFSxOVHXcOuEXu1TA13ECmplGCrAk3uJIH5P5BX_0uHe4wEnuwTZg" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=$(hostname
